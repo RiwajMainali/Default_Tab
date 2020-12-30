@@ -8,13 +8,18 @@
 <ul>
     <li> 
     <form>
-    Youtube Search:<input type="text" name="ysearch" id="cl">
+    Youtube Search:<input type="text" name="YSearchForm" id="YSearchFormId" onkeypress="EnterKey(event)" class="YSearchClass">
     </form>
-    <button type="button" onclick="ysearch()" id="clc"> Search </button>
+
+    <button type="button" onclick="ysearch()" id="YSearchButtonId"> Search 
+    </button>
+
     <form>
-    Web Search:<input type="text" name="wsearch" id="webinput">
+    Web Search:<input type="text" name="WSearchForm" id="WSearchFormId" onkeypress="EnterKey(event)" class="WSearchClass">
     </form>
-    <button type="button" onclick="wsearch()" id="click"> Search </button>
+
+    <button type="button" onclick="wsearch()" id="WSearchButtonId"> Search 
+    </button>
     </li>
 </ul>
 <script type="text/javascript" src="../JS/scriptjs.js">
