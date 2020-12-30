@@ -34,3 +34,4 @@ function asearch(){
     wsearch();
     }
 }
+document.getElementsById("YsearchFormId").style.color="white";
